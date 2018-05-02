@@ -2,6 +2,7 @@ Configuration WebServer {
         
     Param
     (
+        [ValidateNotNullOrEmpty()]
         [string[]]$NodeName="localhost"
     )
      
